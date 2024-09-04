@@ -1,0 +1,174 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(182, 82, 0);
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a {
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px; 
+    height: 100vh;
+    background-color: #000000;
+    position: fixed; 
+    top: 0;
+    left: -3000px; 
+    transition: 0.5s;
+    padding: 20px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #111;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+}
+
+.content {
+    margin-left: 0;
+    transition: margin-left 0.5s;
+    padding: 20px;
+}
+
+.content-open {
+    margin-left: 250px;
+}
+
+.openbtn {
+    font-size: 30px; 
+    background-color: black; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 2px;
+}
+
+.ESQUERDA {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 0;
+    margin: 0;
+}
+
+.ESQUERDA li {
+    margin: 0; 
+}
+
+.ESQUERDA a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; 
+    padding-top: 25px;
+}
+
+.ESQUERDA a:hover {
+    color: rgb(182, 82, 0);
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5rem; /* Tamanho da fonte */
+    font-weight: bold;
+    font-family: 'Arial', sans-serif; /* Fonte do texto */
+    text-shadow: 0 0 40px rgba(0, 0, 0, 0.8); /* Sombra colada às letras */
+}
+
+
+
